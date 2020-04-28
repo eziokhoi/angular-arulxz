@@ -13,12 +13,10 @@ export class ProductListComponent {
   share() {
     window.alert('Công Văn đã được chuyển giao');
   }
-  save() {
-    window.alert('Công Văn đã được lưu');
-  }
-  delete() {
+  onNotify(){
     window.alert('Công Văn đã được xóa');
   }
+
 }
 
 
